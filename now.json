@@ -1,0 +1,11 @@
+{
+  "name": "pwa-pj",
+  "version": 2,
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
+  "routes": [
+    {
+      "src": "/sw.js",
+      "dest": "/static/sw.js"
+    }
+  ]
+}
